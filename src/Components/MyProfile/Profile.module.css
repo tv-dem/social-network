@@ -1,0 +1,7 @@
+.content{
+    grid-area: content;
+}
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+}
