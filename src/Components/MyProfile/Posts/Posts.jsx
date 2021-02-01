@@ -10,9 +10,9 @@ const Posts = () => {
         <button className={classes.formNewPost__btn} type={'submit'}>SUBMIT</button>
       </form>
       <div>new post</div>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post message={'hi!'}/>
+      <Post message={'i love cats'}/>
+      <Post message={'but they don`t love me :('}/>
     </div>
   )
 }
