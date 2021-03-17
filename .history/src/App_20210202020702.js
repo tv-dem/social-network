@@ -17,12 +17,12 @@ function App() {
         <Header/>
         <NavBar/>
         <div className={classes.content}>
-          <Route path='/profile' component={Profile}/>
-          <Route path='/messages' component={Messages}/>
-          <Route path='/news' component={News}/>
-          <Route path='/music' component={Music}/>
-          <Route path='/settings' component={Settings}/>
-          <Route path='/posts' component={Posts}/>
+          <Route path='./profile' component={Profile}/>
+          <Route path='./messages' component={Messages}/>
+          <Route path='./news' component={News}/>
+          <Route path='./music' component={Music}/>
+          <Route path='./settings' component={Settings}/>
+          <Route path='./posts' component={Posts}/>
         </div>
       </div>
     </BrowserRouter>
